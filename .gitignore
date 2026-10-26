@@ -134,3 +134,20 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+dist/
+
+# macOS
+.DS_Store
